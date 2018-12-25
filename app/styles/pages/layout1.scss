@@ -4,10 +4,21 @@
 	background: rgb(168, 82, 82);
 }
 
+.layout1-wrapper {
+	height: 100%;
+	display: flex;
+	flex-flow: column wrap;
+}
+
 .header {
 	border: 1px solid #000;
 	flex: 0 0 auto;
+}
 
+.head, .foot {
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
 }
 
 .main {
