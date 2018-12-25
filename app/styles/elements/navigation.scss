@@ -1,0 +1,25 @@
+.nav_list {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-flow: column;
+	list-style-type: none;
+}
+
+.nav_item {
+	margin-bottom: 5px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.nav_link {
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	font-size: 36px;
+	color: #000;
+	&:hover {
+		color: red;
+	}
+	transition: .3s all ease;
+}

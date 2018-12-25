@@ -3,7 +3,7 @@
 }
 
 html {
-	background-color: green;
+	background-color: rgb(196, 196, 196);
 }
 
 html {
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	// max-height: 50%; 
+	height: 100%; 
 	// display: flex;
 	// flex-direction: column;
 	// font-family: $default-font;
@@ -44,6 +44,8 @@ body {
 	// justify-content: center;
 	// align-items: center;
 	height: 100%;
+	align-items: center;
+	justify-content: center;
 }
 
 // h1, h2, h3, h4, h5, h6 {
