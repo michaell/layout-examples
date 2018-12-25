@@ -1,0 +1,37 @@
+
+
+.layout1-body {
+	// display: flex;
+	// flex-flow: column;
+	// justify-content: center;
+	// align-items: center;
+	background: rgb(168, 82, 82);
+	height: 100%;
+}
+
+.header {
+	border: 1px solid #000;
+	flex: 0 0 auto;
+
+}
+
+.main {
+	border: 1px solid #000;
+	flex: 1 0 auto;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.block1 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	background: rgb(189, 188, 188);
+}
+
+.footer {
+	border: 1px solid #000;
+	flex: 0 0 auto;
+}
