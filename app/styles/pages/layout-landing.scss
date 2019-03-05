@@ -1,0 +1,42 @@
+.wrapper-land {
+	min-height: 100vh;
+	display: flex;
+	flex-flow: column;
+}
+
+.section {
+	display: flex;
+	flex-flow: column;
+	height: 100vh;
+}
+
+.section1 {
+	background: rgb(255, 180, 180);
+}
+
+.section2 {
+	background: rgb(199, 255, 167);
+}
+
+.section3 {
+	background: rgb(143, 255, 236);
+}
+
+.section4 {
+	background: rgb(166, 142, 255);
+}
+
+.container-land {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	width: 1180px;
+	margin: 0 auto;
+	flex: 1;
+	border: 1px dashed #000;
+}
+
+.section-content {
+	height: 200px;
+	border: 1px solid green;
+}

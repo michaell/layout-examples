@@ -1,0 +1,44 @@
+.wrapper5 {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: row;
+	overflow: hidden;
+ }
+
+.outer-col-1 {
+	background: #D7E8D4;
+	flex: 1;
+ }
+
+.outer-col-2 {
+	display: flex;
+	flex-direction: column;
+	flex: 5;
+}
+
+.inner-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.inner-col {
+	flex: 4;
+}
+
+.article5 {
+	min-height: 60vh;
+}
+ 
+.aside5 {
+	background: beige;
+	flex: 1;
+}
+
+.header5, .footer5 {
+	background: yellowgreen;
+	height: 20vh;
+}
+
+.header5, .footer5, .article5, .outer-col-1, .aside5 {
+	padding: 1em;
+}

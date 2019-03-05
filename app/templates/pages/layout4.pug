@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Document
+		link(rel='stylesheet' href='assets/styles/vendor.min.css')
+		link(rel='stylesheet' href='assets/styles/app.min.css')
+	body.body4
+		include ../common/navigation.pug
+		.wrapper4
+			header.header4 Header
+			main.main4
+				article.article4 
+					p This example uses flexbox for the middle part only (i.e. the nav, article, and aside). The header and footer remain block elements.
+					p В данном примере минимальная высота не задаётся ни для элементов body ни обёртки сайта wraper4. Напротив, min-height указан для элемента main и он вычисляется как calc(100vh - 40vh), где 40vh это сумма высот хедера и футера. 
+				nav.nav4 Nav
+				aside.aside4 Aside
+			footer.footer4 Footer

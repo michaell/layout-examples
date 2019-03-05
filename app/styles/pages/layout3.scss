@@ -1,0 +1,43 @@
+.body3 {
+	min-height: 100vh;
+}
+
+.wrapper3 {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	overflow: hidden;
+}
+
+ .main3 {
+	display: flex;
+	flex: 1;
+}
+
+ .article3 {
+	flex: 1;
+}
+
+.par3 {
+	padding: 5px;
+	border: 1px solid grey;
+}
+
+ .nav3, .aside3 {
+	flex: 0 0 20vw;
+	background: beige;
+}
+
+.nav3 {
+	order: -1;
+}
+
+ .header3, .footer3 {
+	background: yellowgreen;
+	height: 20vh;
+}
+
+ .header, .footer3, .article3, .nav3, .aside3 {
+	padding: 1em;
+}

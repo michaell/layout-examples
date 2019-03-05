@@ -1,0 +1,27 @@
+.main4 {
+   display: flex;
+   min-height: calc(100vh - 40vh);
+}
+  
+.article4 {
+   flex: 1;
+}
+
+.nav4, 
+.aside4 {
+   flex: 0 0 20vw;
+   background: beige;
+}
+
+.nav4 {
+   order: -1;
+}
+  
+.header4, .footer4, .article4, .nav4, .aside4 {
+	padding: 1em;
+}
+
+.header4, .footer4 {
+	background: yellowgreen;
+	height: 20vh;
+}

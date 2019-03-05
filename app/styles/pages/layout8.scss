@@ -1,0 +1,40 @@
+.wrapper8 {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin: 0;
+}
+
+.main8 {
+	display: flex;
+	flex: 1;
+}
+
+.article8 {
+	flex: 1;
+	order: 1;
+}
+
+.nav8, 
+.aside8 {
+	flex: 0 0 20vw;
+}
+
+.nav8 {
+	background: #D7E8D4;
+	order: 3;
+}
+
+.aside8 {
+	background: beige;
+	order: 2;
+}
+
+.header8, .footer8 {
+	background: yellowgreen;
+	height: 20vh;
+}
+
+.header8, .footer8, .article8, .nav8, .aside8 {
+	padding: 1em;
+}

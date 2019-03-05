@@ -1,0 +1,41 @@
+.wrapper7 {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: row;
+	margin: 0;
+}
+
+.col-1 {
+	background: #D7E8D4;
+	flex: 1;
+}
+
+.col-2 {
+	display: flex;
+	flex-direction: column;
+	flex: 5;
+}
+
+.content7 {
+	display: flex;
+	flex-direction: row;
+}
+
+.article7 {
+	flex: 3;
+	min-height: 60vh;
+}
+
+.aside7 {
+	background: beige;
+	flex: 1;
+}
+
+.header7, .footer7 {
+	background: yellowgreen;
+	height: 20vh;
+}
+
+.header7, .footer7, .article7, nav, .aside7 {
+	padding: 1em;
+}

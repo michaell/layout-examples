@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible", content="ie=edge")
+		title Document
+		link(rel='stylesheet' href='assets/styles/vendor.min.css')
+		link(rel='stylesheet' href='assets/styles/app.min.css')
+	body.body3
+		include ../common/navigation.pug
+		.wrapper3
+			header.header3 Header
+			main.main3
+				article.article3 
+					p This example uses flexbox for the whole layout. It uses nested flex containers. The outer container (.wrapper3) uses flex-direction: column and contains the whole layout. The nested container (.main3) uses (the default) flex-direction: row and contains the middle bit (i.e. the nav, article, and aside).
+					p У обёртки выставлен min-height: 100vh. Такая же высота у боди, но это уже не обязательно. 
+				nav.nav3 Nav
+				aside.aside3 Aside
+			footer.footer3 Footer

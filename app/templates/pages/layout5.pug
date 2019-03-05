@@ -7,17 +7,14 @@ html(lang="en")
 		title Document
 		link(rel='stylesheet' href='assets/styles/vendor.min.css')
 		link(rel='stylesheet' href='assets/styles/app.min.css')
-	body
-		include ../common/navigation.pug
-		.wrapper1
-			header.header1 
-				.container
-					.head Header
-			main.main
-				.container.container--center
-					.block1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, nihil?
-			footer.footer1
-				.container
-					.foot Footer
-		
-		
+	body.body5
+		.wrapper5
+			include ../common/navigation.pug
+			nav.outer-col-1 Nav
+			.outer-col-2
+				header.header5 Header
+				.inner-row
+					.inner-col
+						article.article5 Article
+						footer.footer5 Footer
+					aside.aside5 Aside
